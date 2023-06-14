@@ -1,0 +1,15 @@
+
+matsukuramegumi@matsukuuminoMBP test % git init git_challenge
+Initialized empty Git repository in /Users/matsukuramegumi/TEST/git_challenge/.git/
+matsukuramegumi@matsukuuminoMBP git_challenge % touch hello_world.txt
+matsukuramegumi@matsukuuminoMBP git_challenge % git add hello_world.txt
+matsukuramegumi@matsukuuminoMBP git_challenge % git commit -m "hello_world.txtを追加"
+[main cb37fc3] hello_world.txtを追加
+ 1 file changed, 2 deletions(-)
+matsukuramegumi@matsukuuminoMBP git_challenge % git add hello_world.txt
+matsukuramegumi@matsukuuminoMBP git_challenge % git commit -m "日本語訳を追記"
+[main ee3e085] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+matsukuramegumi@matsukuuminoMBP git_challenge % git log --oneline
+ee3e085 (HEAD -> main) 日本語訳を追記
+cb37fc3 hello_world.txtを追加
